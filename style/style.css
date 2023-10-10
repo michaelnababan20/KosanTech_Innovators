@@ -1,0 +1,157 @@
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    padding: 4px 60px;
+    position: relative;
+}
+.fiture{
+    display: flex;
+    padding: 15px 4px;
+    align-items: flex-start;
+    gap: 49px;
+    margin-left: auto;
+}
+
+.fiture a{
+    color: var(--Dark-Blue, #4682A9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fiture a:last-child{
+    color: var(--Dark-Blue, #ffffff);
+    padding: 1px 5px;
+    gap: 10px;
+    background: var(--Dark-Blue, #4682A9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+nav .Logo img{
+    position: relative;
+    width: 53px;
+    height: 51px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .logo a{
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.typografi{
+    color: #4682a9;
+}
+
+.normal{
+    color: #749bc2;
+}
+
+.user-box {
+    
+    width: auto;
+    height: 38px;
+  }
+  
+  .user-id {
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .user-name {
+    color: var(--Dark-Blue, #4682A9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    float: left;
+  }
+  
+  .dropdown-arrow {
+    height: 0;
+    width: 0;
+      border-left: 10px solid transparent;
+      border-right:10px solid transparent;
+      border-top: 10px solid #333;
+    position: relative;
+    top: 8px;
+    left: 130px;
+  }
+  
+  .user-id:hover .dropdown-arrow {
+    top: 0px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #333;
+    border-top: 10px solid transparent;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    display: none;
+    background: transparent;
+    
+  }
+  
+  .user-id:hover .dropdown-menu {
+    display: block;
+    top: 100%;
+  }
+ 
+  .dropdown-menu ul li {
+    color: var(--Dark-Blue, #4682A9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style-type: none;
+    display: block;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+  }
+  
+  .dropdown-menu ul li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid #333;
+  }
+
+  .dropdown-menu ul li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .dropdown-menu ul li:hover {
+    background: rgba(0, 87, 255, 0.15);
+    color: #4682A9;
+  }
+
