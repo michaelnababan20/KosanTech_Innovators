@@ -238,3 +238,77 @@ nav .logo a{
   left: 100PX;
   object-fit: cover;
  }
+
+ .conten-LayananKami {
+  margin-left: 25%;
+  display: flex;
+  width: 1180px;
+  height: 738px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ }
+
+ .conten-LayananKami H1 {
+  margin-right: 12%;
+  color: var(--Dark-Blue, #4682A9);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+ }
+
+ .layanan-kami {
+  display: flex;
+  width: 1180px;
+  padding: 0px 0px 0px 6px;
+  align-items: center;
+  align-content: center;
+  gap: 12px 57px;
+  flex-wrap: wrap
+ }
+
+ .tombol-LayananKami{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 4px;
+  width: 241px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Dark-Blue, #4682A9);
+  background: var(--Cobalt, #749BC2);
+ }
+
+.tombol-LayananKami img {
+  margin-top: 14px;  
+}
+
+.tombol-LayananKami a {
+  margin-top: -13px;
+  color: var(--White, #FFF);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.layanan-kami p{
+  color: var(--Dark-Blue, #4682A9);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.layanan-kami .line{
+  width: 950px;
+  height: 1px;
+  background: #000;
+}
+
