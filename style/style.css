@@ -452,6 +452,29 @@ nav .logo a{
   border-radius: 5px;
 }
 
+.conten-Rekomendasi-Makanan .box-1{
+  display: flex;
+  width: 205px;
+  height: 266px;
+  padding: 10px 5px 10px 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #DBDADA;
+}
+
+.conten-Rekomendasi-Makanan .box-1 h1{
+  width: 175px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
 .BT-Rekomendasi{
   display: flex;
   justify-content: center;
