@@ -1,0 +1,19 @@
+.dropdown{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: #4682A9;
+    
+}
+
+.dropdown-item:hover{
+    background-color: #4682A9;
+}
