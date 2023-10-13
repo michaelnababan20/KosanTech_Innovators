@@ -3,6 +3,8 @@
 * {
    /* font-family: 'Playfair Display', serif; */
    font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
 }
 
 a {
@@ -492,3 +494,7 @@ nav .logo a {
    border-radius: 5px;
 }
 
+main{
+   margin-top: 130px;
+   padding: 0 130px;
+}
