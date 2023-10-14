@@ -130,8 +130,10 @@
                     <div class="card py-4">
                         <h3 class="fw-bold mx-5">Rp. 1,450,000/bulan</h3>
                         <div class="mx-4 d-flex justify-content-between mt-3">
-                            <a class="btn btn-sm btn-transparent border px-5 mx-4" href="">Mulai Kost <img class="ms-2" src="../assets/icons/Home+.svg" alt=""></a>
-                            <select class=" btn btn-sm btn-transparent px-5 mx-4 border" aria-label="Default select example">
+                            <a class="btn btn-sm btn-transparent border px-5 mx-4" href="">Mulai Kost <img class="ms-2"
+                                    src="../assets/icons/Home+.svg" alt=""></a>
+                            <select class=" btn btn-sm btn-transparent px-5 mx-4 border"
+                                aria-label="Default select example">
                                 <option selected disabled aria-readonly="">Bayaran</option>
                                 <option value="1">Harian</option>
                                 <option value="2">Bulanan</option>
@@ -139,8 +141,71 @@
                             </select>
 
                         </div>
-                        <a class="btn btn-sm btn-transparent border mt-3 mx-5" href=""><img src="../assets/icons/message.svg" alt=""> Tanya Pemilik</a>
-                        <a class="btn btn-sm btn-primary mt-3 mx-5 fs-6 fw-bold" style="background-color: #749BC2;" href="./pembayaranKost.html">Ajukan Sewa</a>
+                        <a class="btn btn-sm btn-transparent border mt-3 mx-5" href="" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><img src="../assets/icons/message.svg" alt=""> Tanya
+                            Pemilik</a>
+                        <a class="btn btn-sm btn-primary mt-3 mx-5 fs-6 fw-bold" style="background-color: #749BC2;"
+                            href="./pembayaranKost.html">Ajukan Sewa</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div> -->
+                        <div class="modal-body">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <label class="border border-dark border-1" style="width: 100%;" for=""><img
+                                            src="../assets/images/AC.png" class="ms-2 rounded-circle " width="50"
+                                            height="50" alt=""> <span class="ms-3 fw-bold">Hanjar</span>
+                                    </label>
+
+                                    <!-- ISI PESAN -->
+                                    <div class="message mt-4" style="height: 500px;">
+                                        <div class="my-chat mt-2 d-flex justify-content-end"
+                                            style="margin-left: auto !important;">
+                                            <div class="chat1">
+                                                <label class="bg-success px-2 py-1 rounded-pill text-white" for="">Masih
+                                                    Ada Yang Kosong ?</label>
+                                            </div>
+                                        </div>
+                                        <div class="receiveChat mt-2 d-flex justify-content-start">
+                                            <div class="chat1">
+                                                <label class="bg-info text-white px-2 py-1 rounded-pill"
+                                                    for="">Masih</label>
+                                            </div>
+                                        </div>
+                                        <div class="my-chat mt-2 d-flex justify-content-end"
+                                            style="margin-left: auto !important;">
+                                            <div class="chat1">
+                                                <label class="bg-success px-2 py-1 rounded-pill text-white" for="">Oke
+                                                    Sip</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Input Pesan -->
+                                    <div class="inputPesan fixed">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control border-dark"
+                                                style="padding: 10px; width: 80%;" placeholder="Masukan Pesan...">
+                                            <span class="input-group-text bg-success text-light border-dark"
+                                                id="basic-addon2">Kirim</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
                     </div>
                 </div>
             </div>
