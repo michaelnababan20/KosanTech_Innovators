@@ -11,9 +11,91 @@
 
 .btn:hover{
     background-color: #4682A9;
+    color: white;
     
 }
 
 .dropdown-item:hover{
     background-color: #4682A9;
+    color: white;
+}
+
+.Box-Restoran{
+    display: flex;
+    width: 1239px;
+    height: 267px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 29px 45px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-top: 2.5%;
+    margin-left: 17.5%;
+}
+
+.Box-Restoran .Box-1{
+    width: 205px;
+    height: 266px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFFCFC;
+}
+
+.Box-Restoran .Box-1 .Box-2{
+    width: 194px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.Box-Restoran .Box-1 .Box-2 H6{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    margin-left: 5px;
+}
+
+.Box-Restoran .Box-1 .Box-2 p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-left: 5px;
+}
+
+.Box-Restoran .Box-1 .Box-Button{
+    display: flex;
+    width: 99px;
+    padding: 2px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-left: 45%;
+}
+
+.Box-Restoran .Box-1 .Box-Button a{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 120% */
+}
+
+.Box-Restoran .Box-1 .Box-Button a:hover{
+    color: white;
+}
+
+.Box-Restoran .Box-1 .Box-Button:hover{
+    background-color: #749BC2;
+    color: white;
 }
