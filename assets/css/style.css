@@ -494,7 +494,99 @@ nav .logo a {
    border-radius: 5px;
 }
 
+.conten-Rekomendasi-Makanan .box-1{
+   display: flex;
+   width: 205px;
+   height: 266px;
+   padding: 10px 5px 10px 10px;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-end;
+   border-radius: 5px;
+   border: 1px solid #000;
+   background: #DBDADA;
+ }
+ 
+ .conten-Rekomendasi-Makanan .box-1 h1{
+   width: 175px;
+   color: #000;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 24px; /* 150% */
+ }
+
 main{
    margin-top: 130px;
    padding: 0 130px;
 }
+
+.typografi{
+    color: #4682a9;
+}
+
+.user-box {
+    
+    width: auto;
+    height: 38px;
+}
+  
+.user-id {
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+ 
+.user-name {
+    color: var(--Dark-Blue, #4682A9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    float: left;
+}
+  
+.BT{
+  top: 603px;
+  left: 129px;
+  position: absolute;
+  width: 238px;
+  height: 52px;
+  border-radius: 5px;
+  background: var(--Cobalt, #749BC2);
+}
+
+.BT a{
+  position: absolute;
+  top: 25%;
+  left: 17.5%;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.BT-Rekomendasi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 311.469px;
+  height: 57.32px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Cobalt, #749BC2);
+}
+
+.BT-Rekomendasi a{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
